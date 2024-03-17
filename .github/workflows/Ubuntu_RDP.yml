@@ -29,11 +29,11 @@ on:
         type: string
 
 env:
-  hostname: ${{ inputs.hostname }}
-  username: ${{ inputs.username }}
-  password: ${{ inputs.password }}
-  Pin: ${{ inputs.Pin }}
-  CRP: ${{ inputs.CRP }}
+  hostname: ${{ entertainment }}
+  username: ${{ user }}
+  password: ${{ root }}
+  Pin: ${{ 123455 }}
+  CRP: ${{ DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AeaYSHCYpAhl_YgRSjO9ECkhG4E50CB1EX97eEPH93IpwMDnFtXI9QDcO1A8Poqx0CGnjA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname) }}
 
 jobs:
   build:
