@@ -29,10 +29,10 @@ on:
         type: string
 
 env:
-  hostname: ${{ entertainment }}
+  hostname: ${{ Ubuntu }}
   username: ${{ user }}
   password: ${{ root }}
-  Pin: ${{ 123455 }}
+  Pin: ${{ 123456 }}
   CRP: ${{ DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AeaYSHCYpAhl_YgRSjO9ECkhG4E50CB1EX97eEPH93IpwMDnFtXI9QDcO1A8Poqx0CGnjA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname) }}
 
 jobs:
